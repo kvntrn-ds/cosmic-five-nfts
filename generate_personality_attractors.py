@@ -7,11 +7,11 @@ from hashlib import sha256
 from scipy.ndimage import gaussian_filter
 
 # ----------------------------- CONFIG -----------------------------
-COLLECTION_SIZE = 1000
-IMAGE_SIZE = 3840
-DPI = 300
-POINTS = 200000
-STEPS = 20000
+COLLECTION_SIZE = 
+IMAGE_SIZE = 
+DPI = 
+POINTS = 
+STEPS = 
 
 OUTPUT_DIR = "output_cosmic_souls_daring_shapes"
 IMAGES_DIR = os.path.join(OUTPUT_DIR, "images")
@@ -27,11 +27,11 @@ except Exception as e:
 
 # ULTRA CONTRAST palettes
 palette_colors = {
-    "dreamy": ["#000066", "#0000ff", "#00ccff", "#00ffff", "#ffffff"],
-    "energetic": ["#660000", "#ff0000", "#ff6600", "#ffff33", "#ffffff"],
-    "turbulent": ["#330066", "#aa00ff", "#ff00ff", "#ff66ff", "#ffffff"],
-    "harmonious": ["#006600", "#00ff00", "#66ff66", "#99ffcc", "#ffffff"],
-    "elegant": ["#000000", "#444444", "#999999", "#dddddd", "#ffffff"],
+    "dreamy": 
+    "energetic": 
+    "turbulent": 
+    "harmonious": 
+    "elegant": 
 }
 
 custom_cmaps = {k: LinearSegmentedColormap.from_list(k, v, N=256) for k, v in palette_colors.items()}
@@ -70,10 +70,10 @@ def map_traits_to_params(traits):
     A = traits["Agreeableness"] / 100
     N = traits["Neuroticism"] / 100
 
-    # Daring ranges for extreme shapes
-    sigma = np.clip(8.0 + 22.0 * O, 8.0, 30.0)      # Massive wings for high Openness
-    rho = np.clip(20.0 + 40.0 * N, 20.0, 60.0)      # Wild turbulence for high Neuroticism
-    beta = np.clip((8/3) * (0.7 + 1.5 * C), 1.8, 3.5)  # Flat vs tall for Conscientiousness
+    # Ranges for extreme shapes
+    sigma = 
+    rho = 
+    beta = 
 
     top = top_traits(traits, 3)
     map_dict = {"Openness":"dreamy", "Extraversion":"energetic", "Neuroticism":"turbulent", 
@@ -185,3 +185,4 @@ for token_id in range(1, COLLECTION_SIZE + 1):
 
 
 print("\n🎉 NFT collection complete! 🌌✨")
+
