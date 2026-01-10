@@ -24,3 +24,7 @@ See the `previews/` folder for examples.
 Fully decentralized on IPFS via Storacha.
 
 Created by @KVNTRNZ
+
+This repository contains the core algorithmic logic behind the nfts.
+The exact seeds, final parameters, and full 1,000 outputs are proprietary and unique to this collection.
+Feel free to study, remix, and create your own inspired works — but please do not attempt to recreate the original collection.
