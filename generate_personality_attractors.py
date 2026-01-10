@@ -75,12 +75,7 @@ def map_traits_to_params(traits):
     rho = 
     beta = 
 
-    top = top_traits(traits, 3)
-    map_dict = {"Openness":"dreamy", "Extraversion":"energetic", "Neuroticism":"turbulent", 
-                "Agreeableness":"harmonious", "Conscientiousness":"elegant"}
-    cmaps = [custom_cmaps[map_dict[k]] for k, _ in top]
-    weights = [v for _, v in top]
-    cmap = blend_cmaps(cmaps, weights)
+    top = 
 
     glow_strength = A + 0.5*O + 0.4*E
 
@@ -162,15 +157,7 @@ for token_id in range(1, COLLECTION_SIZE + 1):
     plt.savefig(os.path.join(IMAGES_DIR, f"{token_id}.png"), facecolor='black')
     plt.close(fig)
 
-    attributes = [
-        {"trait_type": "Openness", "value": traits["Openness"]},
-        {"trait_type": "Conscientiousness", "value": traits["Conscientiousness"]},
-        {"trait_type": "Extraversion", "value": traits["Extraversion"]},
-        {"trait_type": "Agreeableness", "value": traits["Agreeableness"]},
-        {"trait_type": "Emotional Stability", "value": 100 - traits["Neuroticism"]},
-        {"trait_type": "Sigma", "value": round(sigma, 1)},
-        {"trait_type": "Rho", "value": round(rho, 1)},
-        {"trait_type": "Beta", "value": round(beta, 1)},
+    attributes = 
     ]
 
     metadata = {
@@ -185,4 +172,5 @@ for token_id in range(1, COLLECTION_SIZE + 1):
 
 
 print("\n🎉 NFT collection complete! 🌌✨")
+
 
