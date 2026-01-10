@@ -183,4 +183,5 @@ for token_id in range(1, COLLECTION_SIZE + 1):
     with open(os.path.join(METADATA_DIR, f"{token_id}.json"), 'w') as f:
         json.dump(metadata, f, indent=2)
 
-print("\n🎉 Daring shapes collection complete! Extreme variety, filled frames, vibrant colors. Launch it! 🌌✨")
+
+print("\n🎉 NFT collection complete! 🌌✨")
