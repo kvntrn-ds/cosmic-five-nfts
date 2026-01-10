@@ -1,0 +1,39 @@
+{
+  "name": "Cosmic Soul Dust #3",
+  "description": "1,000 personality-driven dust clouds expressing the beauty and chaos of the human soul, creating an ethereal visual portrait of the mathematics hidden inside every individual.",
+  "image": "ipfs://bafybeieccxqwkrpqxslzhte27t6b6lrpdt6np76fetg4jlwtoox6wik4ye/3.png",
+  "attributes": [
+    {
+      "trait_type": "Openness",
+      "value": 69
+    },
+    {
+      "trait_type": "Conscientiousness",
+      "value": 34
+    },
+    {
+      "trait_type": "Extraversion",
+      "value": 18
+    },
+    {
+      "trait_type": "Agreeableness",
+      "value": 42
+    },
+    {
+      "trait_type": "Emotional Stability",
+      "value": 42
+    },
+    {
+      "trait_type": "Sigma",
+      "value": 23.2
+    },
+    {
+      "trait_type": "Rho",
+      "value": 43.2
+    },
+    {
+      "trait_type": "Beta",
+      "value": 3.2
+    }
+  ]
+}
