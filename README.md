@@ -2,12 +2,12 @@
 
 1,000 unique personality-driven generative artworks mapping Big Five (OCEAN) traits to the Lorenz attractor from chaos theory.
 
-## Concept of traits:
-Each piece uses the classic Lorenz equations, where:
-- **Openness** controls sigma → wing spread
-- **Neuroticism** controls rho → turbulence intensity
-- **Conscientiousness** controls beta → structure
-- **Extraversion & Agreeableness** drive glow and palette blending from ultra-contrast colors.
+Behind every Cosmic Soul lies the Lorenz attractor — the butterfly-shaped equations that birthed modern chaos theory. Here, the three parameters are no longer abstract numbers, but direct reflections of human personality:
+Sigma (σ) — driven by Openness — spreads vast, daring wings of possibility.
+Rho (ρ) — fueled by Neuroticism — injects wild turbulence and emotional storms.
+Beta (β) — shaped by Conscientiousness — controls structure and discipline.Glow intensity and palette blending emerge from the interplay of Extraversion and Agreeableness.
+What begins as cold differential equations becomes a radiant dust cloud — an unreproducible visual portrait of the hidden geometry that makes you, you.This is not random art. It is the exquisite, chaotic mathematics living inside every human soul.
+Your unique personality traits dictate what shape and colours your cosmic dust will look like.
 
 The result: ethereal dust clouds — visual portraits of the hidden mathematics inside every human soul.
 
