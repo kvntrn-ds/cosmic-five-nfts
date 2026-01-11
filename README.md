@@ -1,6 +1,6 @@
 # Cosmic Five NFT Collection
 
-1,000 unique personality-driven generative artworks mapping Big Five (OCEAN) traits to the Lorenz attractor from chaos theory.
+1,000 unique personality-driven generative artworks mapping Big Five (OCEAN) traits to the Lorenz attractor from chaos theory. The process involved uploading metadata and image files to Storacha using IPFS to generate the CID. The CID's were then used to update the JSON files and then uploaded again to get the CID for the metadata. This was then used in thirdweb where I uploaded my NFTs and allowed it to be claimed and minted where it would then be shown on marketplaces such as OpenSea.
 
 Behind every Cosmic Soul lies the Lorenz attractor — the butterfly-shaped equations that birthed modern chaos theory. Here, the three parameters are no longer abstract numbers, but direct reflections of human personality:
 Sigma (σ) — driven by Openness — spreads vast, daring wings of possibility.
